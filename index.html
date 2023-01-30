@@ -25,22 +25,24 @@
   
 <!---Body-->
 <!---Navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-white " style="height: 79px; font-family: Libre Franklin">
+<nav class="navbar navbar-expand-lg navbar-light bg-white " style="height: auto; font-family: Libre Franklin">
+
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Not loading" class="img-fluid mx-md-4" style="width: 103px;
+        <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Not loading" class="img-fluid navbarlogo mx-md-4" style="width: 103px;
           height: 39px;"></a>
   
-  <form class="d-flex mx-5" style="font-family: Poppins;">
+  <form class="d-flex mx-5 searchbox" style="font-family: Poppins;">
           <input class="form-control" type="search" placeholder="Search Freelancer" aria-label="Search" style="border-top-left-radius: 30px; border-bottom-left-radius: 30px; box-shadow: none; max-width: 337.59px;
           height: 43px;">
           <button class="btn" type="submit" style="background-color:  #00B489; width: 62.59px;
   height: 43px; border-radius: 0px 30px 30px 0px;"><img src="assets/searchicon.png" alt="" class="img-fluid" ></button>
         </form>
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0" style="font-weight: 500;
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 navmenu" style="font-weight: 500;
         font-size: 16px;
         line-height: 19px;
         
@@ -57,8 +59,10 @@
         </ul>
   
         <!---Authentication Buttons-->
-  <div class="mx-3" style="font-family: Poppins;">
-      <button class="btn" type="submit" style="background-color:  #00B489; width: 91px;
+  <div class="mx-3 authbtnscontainer display: flex;
+  justify-content: center;
+  margin-top: 2rem;" style="font-family: Poppins;">
+      <button class="btn login" type="submit" style="background-color:  #00B489; width: 91px;
       height: 44px; border-radius: 5px; color: white">Login</button>
   
   <button class="btn" type="submit" style="background-color:  #1E91D0;width: 114px;
@@ -69,6 +73,8 @@
       </div>
     </div>
   </nav>
+
+  
     <div class="container">
 
         jjgjgjgjhgjhgyjggyyuyu
@@ -90,7 +96,7 @@
                             Lorem ipsum dolor sit amet consectetur. Non egestas metus in adipiscingbh tortor sem velit. Felis ut elit idm. Magna magna rhoncus at arcu conimen interdum. Tellus id ut pellentesque vestibulum amet vel integer leo. Est libero nam lorem arcu 
                         </div>
                     </div>
-                    <div class="col-md-2 d-block" style="width: auto;">
+                    <div class="col-md-2 d-block footersections" style="width: auto;">
                         <div class="header mx-3" style="width:fit-content; font-weight: 500;
                         font-size: 24px;">
                             Company
@@ -121,7 +127,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-2">
+                    <div class="col-md-2 footersections">
                         <div class="header mx-3" style="width:fit-content; font-weight: 500;
                         font-size: 24px;">
                             Help
@@ -143,7 +149,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-2"><div class="header mx-3" style="width:fit-content; font-weight: 500;
+                    <div class="col-md-2 footersections">
+                        <div class="header mx-3" style="width:fit-content; font-weight: 500;
                         font-size: 24px;">
                         Resources
                     </div>
@@ -172,7 +179,8 @@
                 </div>
 
 
-                    <div class="col-md-2"><div class="header mx-3" style="width:fit-content; font-weight: 500;
+                    <div class="col-md-2 footersections">
+                        <div class="header mx-3" style="width:fit-content; font-weight: 500;
                         font-size: 24px;">
                         Contact
                     </div>
@@ -201,11 +209,11 @@
 
                 <!---Copyright section-->
                 <div class="row copyrightsection justify-content-between">
-                    <div class="col-md-6 d-flex" style="width: fit-content;">
+                    <div class="col-md-6 d-flex copyright" style="width: fit-content;">
                         Copyright &nbsp; 2023 <a href="index.html" style="text-decoration: none; color: #00B489;">WorkGlo</a>&nbsp;&nbsp; All Right Reserved
                         </div>
 
-                        <div class="col-md-6 d-flex" style="width: fit-content; margin-right: 177px; ">
+                        <div class="col-md-6 d-flex terms" style="width: fit-content; margin-right: 177px; ">
                         Terms|Privacy
                         </div>
                 </div>

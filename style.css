@@ -1,0 +1,9 @@
+a:hover
+{
+    color:  #00B489 !important;
+}
+
+.form-control:focus
+{
+    border-color: #00B489;
+}

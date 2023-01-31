@@ -18,6 +18,8 @@
     color: #444545;
     border-radius: 5px;
 }
+
+
 .featuredlinks:hover
 {
     border: none !important;
@@ -136,6 +138,11 @@ font-family: 'Poppins';
     .content
     {
         width: auto !important;
+    }
+
+    .gigs-section
+    {
+        height: auto !important;
     }
 
     .text-center

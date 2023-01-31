@@ -45,7 +45,7 @@
 {
     background-image: url(assets/lady-browsing.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 550px;
     padding-top: 100px;
     font-family: "Inter", sans-serif;

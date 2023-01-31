@@ -1,0 +1,96 @@
+.nav-link:hover
+{
+    color:  #00B489 !important;
+
+}
+.heroimage
+{
+    background-image: url(assets/lady-browsing.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 550px;
+}
+
+.nav-link
+{
+    color:  #838383!important;
+
+}
+
+.content
+{
+    font-size: 16px;
+}
+
+.form-control:focus
+{
+    border-color: #00B489;
+}
+
+/* Responsiveness for Footer */
+@media only screen and (max-width:768px) 
+{
+    /* Responsiveness for Footercontent */
+    .content
+    {
+        width: auto !important;
+    }
+    .logo
+    {
+        text-align: center;
+    }
+    .header
+    {
+        margin-left: auto!important;
+        margin-right: auto !important;
+    }
+    .footersections
+    {
+        margin-left: auto!important;
+        margin-right: auto !important;
+        text-align: center;
+        margin-top: 2rem;
+        width: auto;
+    }
+    .copyright
+    {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .terms
+    {
+        margin-right: auto !important;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+
+    /* Responsiveness for Navbarcontent */
+    .navbarlogo
+    {
+        display: block;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .searchbox
+    {
+        justify-content: center;
+    }
+    .navmenu
+    {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .authbtnscontainer
+    {
+        display: flex;
+       justify-content: center;
+       margin-top: 2rem;
+    }
+
+    .login
+    {
+        margin-right: 2rem;
+    }
+}

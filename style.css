@@ -140,16 +140,11 @@ font-family: 'Poppins';
         width: auto !important;
     }
 
-    .gigs-section
-    {
-        height: auto !important;
-    }
-
     .text-center
     {
         width: auto !important;
     }
-    .how-it-works-section, .featured-categories-section
+    .how-it-works-section, .featured-categories-section, .gigs-section, .partners-section
 {
    height: auto !important;
 }

@@ -33,6 +33,20 @@
 
 }
 
+.readmore
+{
+    color: #00B489; 
+    text-decoration: none; 
+    font-family: 'Poppins'; 
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.readmore:hover
+{
+    color: #00B489; 
+}
+
 .content
 {
     font-size: 16px;
@@ -118,6 +132,17 @@ font-family: 'Poppins';
         height: 24em;
         padding-top: 100px;
         font-family: "Inter", sans-serif;
+    }
+    .gigcard
+    {
+        margin-top: 2rem!important;
+    }
+
+    .partnersbrand
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .hero-home-head{
         font-family:"Poppins",sans-serif;

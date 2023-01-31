@@ -137,6 +137,25 @@ font-family: 'Poppins';
     {
         width: auto !important;
     }
+
+    .text-center
+    {
+        width: auto !important;
+    }
+    .how-it-works-section, .featured-categories-section
+{
+   height: auto !important;
+}
+.card
+{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.rightsection
+{
+    text-align: center;
+    margin-left: 0rem !important;
+}
     .logo
     {
         text-align: center;

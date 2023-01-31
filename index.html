@@ -214,8 +214,8 @@
 
         <div class=" row justify-content-center" style="margin-top: 3.125rem; font-family: Inter;">
     
-            <div class="col-lg-3">
-                <a href="#" class="featuredlinks" style="border:1px solid rgba(131, 131, 131, 0.4);">
+            <div class="col-lg-3 border rounded-3">
+                <a href="#" class="featuredlinks">
                     <div>
                         <img src="assets/la_laptop-code.png" alt="" class="img-fluid d-block" style="margin-left: auto;
                         margin-right: auto; margin-top: 2.188rem;
@@ -229,8 +229,8 @@
                  </a>
             </div>
 
-            <div class="col-lg-3">
-                <a href="#" class="featuredlinks" style="border:1px solid rgba(131, 131, 131, 0.4);">
+            <div class="col-lg-3 border rounded-3">
+                <a href="#" class="featuredlinks">
                     <div>
                                 
                         <img src="assets/mdi_mobile-phone-text.png" alt="" class="img-fluid d-block" style="margin-left: auto;
@@ -246,8 +246,8 @@
                  </a>
             </div>
 
-            <div class="col-lg-3">
-                <a href="#" class="featuredlinks" style="border:1px solid rgba(131, 131, 131, 0.4);">
+            <div class="col-lg-3 border rounded-3">
+                <a href="#" class="featuredlinks">
                     <div>
                                 
                         <img src="assets/fluent_design-ideas-20-regular.png" alt="" class="img-fluid d-block" style="margin-left: auto;
@@ -262,8 +262,8 @@
                  </a>
             </div>
 
-            <div class="col-lg-3">
-                <a href="#" class="featuredlinks" style="border:1px solid rgba(131, 131, 131, 0.4);">
+            <div class="col-lg-3 border rounded-3">
+                <a href="#" class="featuredlinks" >
                     <div>
                                
                         <img src="assets/jam_write.png" alt="" class="img-fluid d-block" style="margin-left: auto;
@@ -287,8 +287,8 @@
 
         <div class="row justify-content-center" style=" font-family: Inter; color: #444545;">
     
-             <div class="col-lg-3">
-                <a href="#" class="featuredlinks" style="border:1px solid rgba(131, 131, 131, 0.4);">
+             <div class="col-lg-3 border rounded-3">
+                <a href="#" class="featuredlinks">
                     <div>
                         <img src="assets/material-symbols_headphones-battery-outline-rounded.png" alt="" class="img-fluid d-block" style="margin-left: auto;
                         margin-right: auto;
@@ -303,8 +303,8 @@
                 </a>    
              </div>
             
-<div class="col-lg-3">
-    <a href="#" class="featuredlinks" style="border:1px solid rgba(131, 131, 131, 0.4);">
+<div class="col-lg-3 border rounded-3">
+    <a href="#" class="featuredlinks">
         <div>
         
             <img src="assets/mdi_customer-service.png" alt="" class="img-fluid d-block" style="margin-left: auto;
@@ -320,8 +320,8 @@
     </a>
 </div>
 
-<div class="col-lg-3">
-    <a href="#" class="featuredlinks" style="border:1px solid rgba(131, 131, 131, 0.4);">
+<div class="col-lg-3 border rounded-3">
+    <a href="#" class="featuredlinks">
         <div>
             
             <img src="assets/ph_briefcase-light.png" alt="" class="img-fluid d-block" style="margin-left: auto;
@@ -336,8 +336,8 @@
       </a>
 </div>
 
-<div class="col-lg-3">
-    <a href="#" class="featuredlinks" style="border:1px solid rgba(131, 131, 131, 0.4);">
+<div class="col-lg-3 border rounded-3">
+    <a href="#" class="featuredlinks">
         <div >
        
             <img src="assets/icon-park-outline_sales-report.png" alt="" class="img-fluid d-block" style="margin-left: auto;
@@ -639,7 +639,20 @@
 
 
 
-
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $('.border').hover(function(){
+          $(this).removeClass('border')
+          $(this).addClass('shadow')
+      },
+      function(){
+          $(this).addClass('border')
+        $(this).removeClass('shadow')
+      }
+      )
+    })
+    </script>
 </body>
 </html>
 

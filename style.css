@@ -12,11 +12,39 @@
     color:  #00B489 !important;
 
 }
+.featuredlinks
+{
+    text-decoration: none;
+    color: #444545;
+    border-radius: 5px;
+}
 
+
+.featuredlinks:hover
+{
+    border: none !important;
+    color: #444545;
+    box-shadow: 3px 2px 50px rgba(1, 35, 53, 0.15);
+
+}
 .nav-link
 {
     color:  #838383!important;
 
+}
+
+.readmore
+{
+    color: #00B489; 
+    text-decoration: none; 
+    font-family: 'Poppins'; 
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.readmore:hover
+{
+    color: #00B489; 
 }
 
 .content
@@ -33,7 +61,7 @@
 {
     background-image: url(assets/lady-browsing.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 550px;
     padding-top: 100px;
     font-family: "Inter", sans-serif;
@@ -71,7 +99,22 @@
     font-weight:500;
     color: #fff;
 }
-
+.btncategories
+{
+width: 14.875rem;
+font-size: 1.25rem;
+height: 2.875rem;
+background-color: white;
+color: #00B489;
+border: 1px solid #00B489;
+filter: drop-shadow(0px 8px 35px rgba(0, 0, 0, 0.16));
+border-radius: 5px;
+font-family: 'Poppins';
+}
+.btncategories:hover
+{
+    color: #00B489;
+}
 
 /* Responsiveness for Footer */
 @media (max-width: 991px) , (max-width: 764px){
@@ -89,6 +132,17 @@
         height: 24em;
         padding-top: 100px;
         font-family: "Inter", sans-serif;
+    }
+    .gigcard
+    {
+        margin-top: 2rem!important;
+    }
+
+    .partnersbrand
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     .hero-home-head{
         font-family:"Poppins",sans-serif;
@@ -110,6 +164,25 @@
     {
         width: auto !important;
     }
+
+    .text-center
+    {
+        width: auto !important;
+    }
+    .how-it-works-section, .featured-categories-section, .gigs-section, .partners-section
+{
+   height: auto !important;
+}
+.card
+{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.rightsection
+{
+    text-align: center;
+    margin-left: 0rem !important;
+}
     .logo
     {
         text-align: center;

@@ -3,7 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
+.p_absolute{
+    position:absolute;
+}
+.p_relative{
+    position: relative;
+}
 /*End Defaults and Externals*/
 
 
@@ -116,6 +121,59 @@ font-family: 'Poppins';
     color: #00B489;
 }
 
+.welcome-section{
+    height:27.791rem;
+}
+
+.welcome-content-wrapper{
+    padding-top: 6.375rem;
+}
+
+.welcome-section-vector-1{
+    background-image: url('assets/vector-1.png');
+    left: 0;
+    width: 30%;
+    height: 29em;
+    background-size: cover;
+    background-position: right top;
+}
+.welcome-section-vector-2{
+    background-image: url('assets/vector-2.png');
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 22em;
+    background-size: cover;
+    background-position: right top;
+    filter: drop-shadow( rgba(0, 0, 0, 0.4) 0px -15px 26px);
+    -webkit-filter: drop-shadow( rgba(0, 0, 0, 0.4) 0px -15px 26px);
+}
+.welcome-section-vector-3{
+    background-image: url('assets/vector-3.png');
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    height: 16em;
+    background-size: cover;
+    background-position: right top;
+}
+.welcome-section-vector-4{
+    background-image: url('assets/vector-4.png');
+    right: 4em;
+    bottom: 8em;
+    width: 30%;
+    height: 8em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    filter: drop-shadow( rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px);
+    -webkit-filter: drop-shadow( rgba(50, 50, 93, 0.25) 0px 13px 3px);
+}
+.right-section.custom
+{
+    padding-top:5em ;
+    padding-left: 2em;
+}
 /* Responsiveness for Footer */
 @media (max-width: 991px) , (max-width: 764px){
     .navbar-collapse.collapse.show{
